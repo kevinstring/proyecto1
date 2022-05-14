@@ -17,13 +17,34 @@ body {
 
 .wrapper {
     max-width: 300px;
-    min-height: 350px;
+    min-height: 50vh;
     margin: 80px auto;
     padding: 40px 30px 30px 30px;
     background-color: #ecf0f3;
     border-radius: 15px;
     box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
 }
+
+.wrapper2 {
+        transition: 3s;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    min-height: 35vh;
+    margin: 50px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #ecf0f3;
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+.wrapper2 :hover{
+  background-color: red   ;
+
+}
+
 
 .logo {
     width: 80px;
@@ -69,6 +90,21 @@ body {
     color: #555;
 }
 
+a .btn{
+     box-shadow: none;
+    width: 10%;
+    height: 40px;
+    background-color: #03A9F4;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #fff;
+    letter-spacing: 1.3px;
+}
+
+a .btn: hover{
+    background-color: red;
+}
+
 .wrapper .btn {
     box-shadow: none;
     width: 100%;
@@ -111,4 +147,10 @@ body {
         margin: 30px 20px;
         padding: 40px 15px 15px 15px;
     }
+}
+
+
+.card{
+    width: 500px;
+
 }

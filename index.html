@@ -2,10 +2,12 @@
 <html>
 
 <head>
+
+<script src="js/players.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body>
+<body id="bod">
     <div class="wrapper">
         <div class="logo">
             <img src="https://img2.freepng.es/20171207/b36/beer-logo-logo-design-5a295423a6c7e3.1295808315126579556831.jpg" alt="">
@@ -13,16 +15,17 @@
         <div class="text-center mt-4 name">
             Añadir un jugador
         </div>
-        <form class="p-3 mt-3">
+        <form class="p-3 mt-3">	
             <div class="form-field d-flex align-items-center">
                 <span class="far fa-user"></span>
                 <input type="text" name="userName" id="userName" placeholder="Nombre">
             </div>
-            <button class="btn mt-3">Agregar</button>
-            <button class="btn2 mt-3">Iniciar</button>
+            <button type="button" class="btn mt-3" onclick="addUser()">Agregar</button>
+          <a href="app/categoria2.html"> <button type="button" class="btn2 mt-3"> Iniciar</button></a>
+
+            <div id="lista"></div>
         </form>
     </div>
-
 
 </body>
 
