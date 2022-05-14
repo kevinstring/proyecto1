@@ -1,3 +1,43 @@
+
+
+function getDatos(){
+	var contadorUser= Math.round(Math.random()*5);
+	let usuario=["kevin", "alejandro" ,"gabriel"];
+
+
+
+	const datos=[` ${usuario[contadorUser]} debes pararte en un solo pie por 1 minuto` , "lorem plus plus" , "lorem plus plus plus"];
+
+	
+
+ 	
+ 		var contenedor= document.getElementById('datos')
+ var random=Math.round(Math.random()*2);
+var color= '#'+Math.round(Math.random()*54321);
+
+ 	// contenedor.innerHTML= "";
+ 		contenedor.innerHTML= `<div readonly id="divInterno" style="background-color: ${color}; margin:auto;"> <p id="texto"> ` + datos[random] + "</p> </div>";
+
+ 		
+
+ 		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // function apagar() {
 // 	document.getElementById("imagen").src = 'media/encendido.png'
 // }
@@ -79,25 +119,3 @@
 // }
 
 
-function getDatos(){
-	var contadorUser= Math.round(Math.random()*5);
-	let usuario=["kevin", "alejandro" ,"gabriel"];
-
-
-
-	const datos=[` ${usuario[contadorUser]} debes pararte en un solo pie por 1 minuto` , "lorem plus plus" , "lorem plus plus plus"];
-
-	
-
- 	
- 		var contenedor= document.getElementById('datos')
- var random=Math.round(Math.random()*2);
-var color= '#'+Math.round(Math.random()*54321);
-
- 	// contenedor.innerHTML= "";
- 		contenedor.innerHTML= `<div readonly id="divInterno" style="background-color: ${color}; margin:auto;"> <p id="texto"> ` + datos[random] + "</p> </div>";
-
- 		
-
- 		
-}
