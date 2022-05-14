@@ -22,11 +22,10 @@ body {
     padding: 40px 30px 30px 30px;
     background-color: #ecf0f3;
     border-radius: 15px;
-    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
 }
 
 .wrapper2 {
-        transition: 3s;
+        transition: 1s;
 
     text-align: center;
     display: flex;
@@ -40,10 +39,6 @@ body {
     box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
 }
 
-.wrapper2 :hover{
-  background-color: red   ;
-
-}
 
 
 .logo {
@@ -101,7 +96,7 @@ a .btn{
     letter-spacing: 1.3px;
 }
 
-a .btn: hover{
+a .btn: {
     background-color: red;
 }
 
@@ -154,3 +149,4 @@ a .btn: hover{
     width: 500px;
 
 }
+
