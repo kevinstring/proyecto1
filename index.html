@@ -3,7 +3,6 @@
 
 <head>
 
-<script src="js/players.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -18,14 +17,15 @@
         <form class="p-3 mt-3">	
             <div class="form-field d-flex align-items-center">
                 <span class="far fa-user"></span>
-                <input type="text" name="userName" id="userName" placeholder="Nombre">
+                <input type="text" name="userName" id="userName" placeholder="Nombre" name="userName" >
             </div>
             <button type="button" class="btn mt-3" onclick="addUser()">Agregar</button>
-          <a href="app/categoria2.html"> <button type="button" class="btn2 mt-3"> Iniciar</button></a>
+          <a href="app/categoria2.html"> <button type="button" class="btn2 mt-3" id="iniciar" style="display: none;"> Iniciar</button></a>
 
             <div id="lista"></div>
         </form>
     </div>
+<script type="module" src="js/players.js"></script>
 
 </body>
 

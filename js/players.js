@@ -1,16 +1,30 @@
 
 var user = [];
 var cont=1;
+var userName = document.getElementById("userName");
+
+
 function addUser(){
-
-
-var userName = document.getElementById("userName").value;
 var lista= document.getElementById("lista");
-if (userName!=""){
-lista.innerHTML+= "<p>"+cont+"."+userName+"</p>"
-user.push(userName);
+var listaUser=document.getElementById("listaUsuarios");
+if (userName.value!=""){
+lista.innerHTML+= "<p>"+cont+"."+userName.value+"</p>"
+user.push(userName.value);
 document.getElementById("userName").value="";
 console.log(user);  
 cont++;
+if(cont>2){
+document.getElementById("iniciar").style.display="block";
 }
+
 }
+
+
+}
+
+export function getUser userName[](){
+userName = this.user[];
+return username;
+}
+
+
